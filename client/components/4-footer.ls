@@ -1,4 +1,4 @@
-@page-footer=-> footer id:'footer', "Copyright 2017 Chain.cloud",
+components.page-footer=-> footer id:'footer', "Copyright 2017 Chain.cloud",
 	ul class:'f-menu',
 		li a href:'', "Home"
 		li a href:'', "Dashboard"

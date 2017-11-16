@@ -1,4 +1,4 @@
-@main-menu=-> 	aside id:'s-main-menu' class:'sidebar',
+components.main-menu=-> 	aside id:'s-main-menu' class:'sidebar',
 	div class:'smm-header',
 		i class:'zmdi zmdi-long-arrow-left' "data-ma-action":'sidebar-close'
 	ul class:'smm-alerts',

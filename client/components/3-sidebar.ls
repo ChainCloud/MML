@@ -1,4 +1,4 @@
-@sidebar=-> aside id:'s-user-alerts' class:'sidebar',
+components.sidebar=-> aside id:'s-user-alerts' class:'sidebar',
 	ul class:'tab-nav tn-justified tn-icon m-t-10' "data-tab-color":'teal',
 		li {},
 			a class:'sua-messages' href:'\#sua-messages' "data-toggle":'tab',

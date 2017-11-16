@@ -15,15 +15,15 @@ template \layout -> html lang:\en,
 						div class:'mcw-line top palette-White bg'
 						div class:'mcw-line center palette-White bg'
 						div class:'mcw-line bottom palette-White bg'
-			pull-right-menu!
-			search-field!
+			components.pull-right-menu!
+			components.search-field!
 
 		section id:'main',
-			sidebar!
-			main-menu!
+			components.sidebar!
+			components.main-menu!
 			SI @lookupTemplate \yield
-			page-footer!
-		page-loader!
+			components.page-footer!
+		components.page-loader!
 
 
 

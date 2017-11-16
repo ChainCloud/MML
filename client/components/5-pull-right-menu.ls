@@ -1,4 +1,4 @@
-@pull-right-menu=-> ul class:'pull-right h-menu',
+components.pull-right-menu=-> ul class:'pull-right h-menu',
 	li class:'hm-search-trigger',
 		a href:'' "data-ma-action":'search-open',
 			i class:'hm-icon zmdi zmdi-search'
